@@ -1,0 +1,19 @@
+-o -f
+compute-0-19
+2012年  8月 22日 水曜日 15:49:53 JST
+ENCMRP/DECMRP version 6.10 (Mar. 2010)
+usage: encmrp [options] infile outfile
+options:
+    -M num  Number of predictors [-1]
+    -K num  Prediction order [-1]
+    -P num  Precision of prediction coefficients (fractional bits) [6]
+    -V num  Number of probability models [16]
+    -A num  Accuracy of probability models [3]
+    -I num  Maximum number of iterations [100]
+    -m      Use MMSE predictors
+    -f      Fixed block-size for adaptive prediction
+    -o      Further optimization of predictors (experimental)
+infile:     Input file (must be in a raw PGM format)
+outfile:    Output file
+2012年  8月 22日 水曜日 15:49:53 JST
+ERROR!
